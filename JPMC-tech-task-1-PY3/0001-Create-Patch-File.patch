@@ -1,0 +1,150 @@
+From f370847ae3753a4083b8fd7c5c57fd146d93723e Mon Sep 17 00:00:00 2001
+From: Thomas <thomaslenguyenasian@gmail.com>
+Date: Mon, 31 Jan 2022 19:44:28 -0800
+Subject: [PATCH] Create Patch File
+
+---
+ .DS_Store                                      | Bin 0 -> 6148 bytes
+ .gitattributes                                 |   2 ++
+ .idea/.gitignore                               |   8 ++++++++
+ .idea/JPMC.iml                                 |  12 ++++++++++++
+ .idea/inspectionProfiles/profiles_settings.xml |   6 ++++++
+ .idea/misc.xml                                 |   4 ++++
+ .idea/modules.xml                              |   8 ++++++++
+ .idea/vcs.xml                                  |   9 +++++++++
+ JPMC-tech-task-1-PY3                           |   1 +
+ 9 files changed, 50 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .gitattributes
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/JPMC.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 160000 JPMC-tech-task-1-PY3
+
+diff --git a/.DS_Store b/.DS_Store
+new file mode 100644
+index 0000000000000000000000000000000000000000..6cad6b2e04aa5e0a6ca6698c5f25117be0ea4d7b
+GIT binary patch
+literal 6148
+zcmeHKQA+|r5S~@b6A64U>hYjgB_+h5m&58M2%?L6sIa?~JiKnjJChLMUh5C_Px?L0
+z?5>4a&`Xgq1GC@k?98tFt?b+afM|_6b$}88Sg3@V0ydurjgu}&#&`&YnxhH{bm10y
+zP+f>-$6sWC&aMnca017$kEix=ehGLGLmz#0)B!xgjz5kEekgs+dGQBf5GS?TtH@+?
+zE30`cZxyX;w<pJL;w7WF<qa>XcP3@%&uq^>54z)ask|?v#0#SCP$dMNE{0rP1W`wh
+zTXGb2VwLOa0jppY+NF)jq|t0v>}F$Hu_sM3cWbrjv|z1oZSS47`{8{gpESn;|Bg!5
+z49?&gjc;%F!5v1SjP5XJHs5R>MrME+U<Q_&0duKY#iiZ_|9EDA8TbhX=zg$K2_1u}
+zMs;;yL!XZ{o+Bhdo8A(Hwn4{Wsu4#}gib}&slq%lgic4lZQ>k*sYaa+LamJRn3aWj
+zp$N4)`fU{s!qLbrGr$bYGmzEY64n31uiyXkN!()wn1O%AfXE%V2QA!^sjUl}qgrdD
+s-k_3DT&nRs1r1e-F_ud4CaMzj+hia*22+jbLE#SpMFTg?z^^j!2EOl6=l}o!
+
+literal 0
+HcmV?d00001
+
+diff --git a/.gitattributes b/.gitattributes
+new file mode 100644
+index 0000000..dfe0770
+--- /dev/null
++++ b/.gitattributes
+@@ -0,0 +1,2 @@
++# Auto detect text files and perform LF normalization
++* text=auto
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..73f69e0
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+diff --git a/.idea/JPMC.iml b/.idea/JPMC.iml
+new file mode 100644
+index 0000000..8b8c395
+--- /dev/null
++++ b/.idea/JPMC.iml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+index 0000000..105ce2d
+--- /dev/null
++++ b/.idea/inspectionProfiles/profiles_settings.xml
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..d56657a
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..b55efcd
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/JPMC.iml" filepath="$PROJECT_DIR$/.idea/JPMC.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..dd1725c
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/JPMC Task 1/JPMC-tech-task-1" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/JPMC Task 1/JPMC-tech-task-1-py3" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/JPMC-tech-task-1-py3" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/JPMC-tech-task-1-PY3 b/JPMC-tech-task-1-PY3
+new file mode 160000
+index 0000000..3614329
+--- /dev/null
++++ b/JPMC-tech-task-1-PY3
+@@ -0,0 +1 @@
++Subproject commit 36143294b216b7210e2ee5948c78725503a5b7ca
+-- 
+2.32.0
+
